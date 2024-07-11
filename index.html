@@ -234,7 +234,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MultiThreaded Manager w/ Boids Simulation</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MultiThreaded Boids Simulation</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -247,14 +247,9 @@
                                     <p class="mb-4">
                                         <b>Development Process</b> 
                                         <br>
-                                        <b>MT Logger</b>
-                                        <br>
                                         I knew that I wanted to have some way to write debug text to the terminal while testing.
-                                        So utilizing a thread from the Manager I created a class called MT Logger which allowed me to log text to the terminal.<br>
-                                        <b>MT Manager</b>
-                                        <br>
-                                        I use mutex to be able to lock and unlock threads so that I dont run into issues while stacking functions on to the threads. <br>
-                                        <b>Boids Simulation</b>
+                                        So utilizing a thread from the Manager I created a class called MT Logger which allowed me to log text to the terminal.
+                                        I use mutex to be able to lock and unlock threads so that I dont run into issues while stacking functions on to the threads. 
                                         For the Boids simulation I have One thread that takes care of spawning the boids and another that updates their movement behaviour.
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
