@@ -234,7 +234,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MultiThreaded Manager w/ Boids Simulation</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -244,7 +244,19 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">
+                                        <b>Development Process</b> 
+                                        <br>
+                                        <b>MT Logger</b>
+                                        <br>
+                                        I knew that I wanted to have some way to write debug text to the terminal while testing.
+                                        So utilizing a thread from the Manager I created a class called MT Logger which allowed me to log text to the terminal.<br>
+                                        <b>MT Manager</b>
+                                        <br>
+                                        I use mutex to be able to lock and unlock threads so that I dont run into issues while stacking functions on to the threads. <br>
+                                        <b>Boids Simulation</b>
+                                        For the Boids simulation I have One thread that takes care of spawning the boids and another that updates their movement behaviour.
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
