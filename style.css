@@ -11,7 +11,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 10; /* ensures navbar is above other elements */
+  z-index: 10;
 }
 
 .navbar-content {
@@ -31,14 +31,14 @@ body {
 }
 
 .Avatar {
-  width: 52px; /* adjust size as needed */
-  height: 52px; /* adjust size as needed */
-  margin-right: 10px; /* spacing between image and text */
-  border-radius: 4px; /* optional rounded corners */
+  width: 52px;
+  height: 52px;
+  margin-right: 10px;
+  border-radius: 4px;
 }
 
 .NavTitle {
-  display: block; /* show by default */
+  display: block;
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -54,11 +54,11 @@ body {
 }
 
 .Larger-Avatar {
-  width: 128px; /* adjust size as needed */
-  height: 128px; /* adjust size as needed */
-  margin-right: 10px; /* spacing between image and text */
-  border-radius: 4px; /* optional rounded corners */
-  display: block; /* or keep flex if needed */
+  width: 128px;
+  height: 128px;
+  margin-right: 10px;
+  border-radius: 4px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -87,7 +87,7 @@ body {
 
 .navbar li a:hover {
   background-image: linear-gradient(to right, purple, blue);
-  background-color: unset; /* optional: remove any solid background overriding the gradient */
+  background-color: unset;
 }
 
 .Nav-Line {
@@ -144,7 +144,7 @@ body {
 
 .project-card:hover {
   background-image: linear-gradient(to right, purple, blue);
-  background-color: unset; /* optional: remove any solid background overriding the gradient */
+  background-color: unset;
   transform: translateY(-2px);
 }
 
