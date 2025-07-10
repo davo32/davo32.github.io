@@ -37,6 +37,22 @@ body {
   border-radius: 4px; /* optional rounded corners */
 }
 
+.NavTitle {
+  display: block; /* show by default */
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+/* Hide when viewport is less than 600px wide */
+@media (max-width: 600px) {
+  .NavTitle {
+    display: none;
+  }
+}
+
 .Larger-Avatar {
   width: 128px; /* adjust size as needed */
   height: 128px; /* adjust size as needed */
